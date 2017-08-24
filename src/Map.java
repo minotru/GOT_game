@@ -2,6 +2,9 @@
 import java.util.ArrayList;
 
 public class Map {
-	public static ArrayList<Sector> sectors;
-	
+	public ArrayList<Sector> sectors;
+
+	Map() {
+	    sectors = new ArrayList<Sector>();
+    }
 }

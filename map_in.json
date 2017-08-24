@@ -1,0 +1,287 @@
+[
+    {
+        "neighbors": [
+            1.0,
+            2.0,
+            4.0,
+            3.0
+        ],
+        "data": {
+            "name": "Castle Black",
+            "castle": 0.0,
+            "supply": 0.0,
+            "crown": 1.0,
+            "landscape": "ground"
+        },
+        "id": 0.0
+    },
+    {
+        "neighbors": [
+            0.0,
+            4.0,
+            5.0,
+            8.0,
+            9.0,
+            10.0
+        ],
+        "data": {
+            "name": "Bay of Ice",
+            "castle": 0.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "water"
+        },
+        "id": 1.0
+    },
+    {
+        "neighbors": [
+            0.0,
+            4.0,
+            3.0
+        ],
+        "data": {
+            "name": "Karhold",
+            "castle": 1.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "ground"
+        },
+        "id": 2.0
+    },
+    {
+        "neighbors": [
+            0.0,
+            2.0,
+            4.0,
+            6.0,
+            7.0,
+            12.0
+        ],
+        "data": {
+            "name": "The Shivering Sea",
+            "castle": 0.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "water"
+        },
+        "id": 3.0
+    },
+    {
+        "neighbors": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            6.0,
+            11.0
+        ],
+        "data": {
+            "name": "Winterfell",
+            "castle": 2.0,
+            "supply": 1.0,
+            "crown": 1.0,
+            "landscape": "ground"
+        },
+        "id": 4.0
+    },
+    {
+        "neighbors": [
+            1.0,
+            4.0
+        ],
+        "data": {
+            "name": "The Stony Shore",
+            "castle": 0.0,
+            "supply": 1.0,
+            "crown": 0.0,
+            "landscape": "ground"
+        },
+        "id": 5.0
+    },
+    {
+        "neighbors": [
+            3.0,
+            4.0,
+            7.0,
+            11.0
+        ],
+        "data": {
+            "name": "White Harbor",
+            "castle": 1.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "ground"
+        },
+        "id": 6.0
+    },
+    {
+        "neighbors": [
+            3.0,
+            6.0,
+            12.0
+        ],
+        "data": {
+            "name": "Window\u0027s Watch",
+            "castle": 0.0,
+            "supply": 1.0,
+            "crown": 0.0,
+            "landscape": "ground"
+        },
+        "id": 7.0
+    },
+    {
+        "neighbors": [
+            1.0,
+            9.0,
+            14.0,
+            19.0,
+            24.0,
+            33.0
+        ],
+        "data": {
+            "name": "Sunset Sea",
+            "castle": 0.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "water"
+        },
+        "id": 8.0
+    },
+    {
+        "neighbors": [
+            1.0,
+            8.0,
+            10.0,
+            14.0
+        ],
+        "data": {
+            "name": "Funt\u0027s Finger",
+            "castle": 1.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "ground"
+        },
+        "id": 9.0
+    },
+    {
+        "neighbors": [
+            1.0,
+            9.0,
+            11.0,
+            14.0,
+            16.0
+        ],
+        "data": {
+            "name": "Greywater Watch",
+            "castle": 0.0,
+            "supply": 1.0,
+            "crown": 0.0,
+            "landscape": "ground"
+        },
+        "id": 10.0
+    },
+    {
+        "neighbors": [
+            4.0,
+            6.0,
+            12.0,
+            16.0,
+            17.0
+        ],
+        "data": {
+            "name": "Moat Cailin",
+            "castle": 1.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "ground"
+        },
+        "id": 11.0
+    },
+    {
+        "neighbors": [
+            3.0,
+            7.0,
+            6.0,
+            11.0,
+            17.0,
+            18.0,
+            22.0,
+            23.0,
+            27.0,
+            28.0
+        ],
+        "data": {
+            "name": "The Narrow Sea",
+            "castle": 0.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "water"
+        },
+        "id": 12.0
+    },
+    {
+        "neighbors": [
+            8.0,
+            9.0,
+            10.0,
+            15.0,
+            16.0,
+            21.0
+        ],
+        "data": {
+            "name": "Ironman\u0027s Bay",
+            "castle": 0.0,
+            "supply": 0.0,
+            "crown": 0.0,
+            "landscape": "water"
+        },
+        "id": 14.0
+    },
+    {
+        "neighbors": [
+            14.0
+        ],
+        "data": {
+            "name": "Pyke",
+            "castle": 2.0,
+            "supply": 1.0,
+            "crown": 1.0,
+            "landscape": "ground"
+        },
+        "id": 15.0
+    },
+    {
+        "neighbors": [
+            10.0,
+            11.0,
+            14.0,
+            17.0,
+            21.0
+        ],
+        "data": {
+            "name": "Seagard",
+            "castle": 2.0,
+            "supply": 1.0,
+            "crown": 1.0,
+            "landscape": "ground"
+        },
+        "id": 16.0
+    },
+    {
+        "neighbors": [
+            11.0,
+            12.0,
+            16.0,
+            18.0,
+            22.0
+        ],
+        "data": {
+            "name": "The Twins",
+            "castle": 0.0,
+            "supply": 0.0,
+            "crown": 1.0,
+            "landscape": "ground"
+        },
+        "id": 17.0
+    }
+]
