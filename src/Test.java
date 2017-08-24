@@ -1,31 +1,35 @@
-package test;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
-
-import test.SectorData.Landscape;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Test {
 	public static void main(String args[]) {
 		Map.sectors = new ArrayList<Sector>();
-		SectorData sd = (new SectorDataBuilder()).
-				setName("Stark").
-				setCastle(1).
-				setSupply(1).
-				setCrown(3).
-				setLandscape(Landscape.ground).
-				get();
-		Map.sectors.add(new Sector(sd,1, new ArrayList<Sector>()));
-		Map.sectors.add(new Sector(sd,2, new ArrayList<Sector>()));
+		int i=0;
 		Map.sectors.add(new Sector((new SectorDataBuilder()).
-				setName("Winterfell").setCastle(2).setCrown(1).setSupply(1).setLandscape(Landscape.ground).get(),3,new ArrayList<Sector>()));
+				setName("Castle Black").setCastle(0).setCrown(1).setSupply(0).setLandscape(SectorData.Landscape.ground).create(),
+				i++, new ArrayList<Sector>()));
+		Map.sectors.add(new Sector((new SectorDataBuilder()).
+				setName("Bay of Ice").setCastle(0).setCrown(0).setSupply(0).setLandscape(SectorData.Landscape.water).create(),
+				i++, new ArrayList<Sector>()));
+		Map.sectors.add(new Sector((new SectorDataBuilder()).
+				setName("Karhold").setCastle(1).setCrown(0).setSupply(0).setLandscape(SectorData.Landscape.ground).create(),
+				i++, new ArrayList<Sector>()));
+		Map.sectors.add(new Sector((new SectorDataBuilder()).
+				setName("The Shivering Sea").setCastle(0).setCrown(0).setSupply(0).setLandscape(SectorData.Landscape.water).create(),
+				i++, new ArrayList<Sector>()));
+		Map.sectors.add(new Sector((new SectorDataBuilder()).
+				setName("Winterfell").setCastle(2).setCrown(1).setSupply(1).setLandscape(SectorData.Landscape.ground).create(),
+				i++, new ArrayList<Sector>()));
+		
 //		GsonBuilder builder = new GsonBuilder();
 //		Gson gson = builder.create();
 //		//System.out.println(gson.toJson(sd));

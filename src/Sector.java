@@ -1,6 +1,6 @@
-package test;
 
 import java.util.ArrayList;
+
 
 public class Sector {
 	ArrayList<Sector> neighbors;
@@ -12,5 +12,6 @@ public class Sector {
 		id = ID;
 		this.neighbors = neighbors;
 	}
+	
 	
 }

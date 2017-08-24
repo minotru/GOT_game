@@ -1,10 +1,9 @@
-package test;
 
 public class SectorDataBuilder {
 	private SectorData sectorData;
 
-	public SectorData get() {
-		return sectorData;
+	public SectorData create() {
+		return new SectorData(sectorData);
 	}
 
 	SectorDataBuilder(){
