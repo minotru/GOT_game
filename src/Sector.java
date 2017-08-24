@@ -3,15 +3,13 @@ import java.util.ArrayList;
 
 
 public class Sector {
-	ArrayList<Sector> neighbors;
+	ArrayList<Integer> neighbors;
 	SectorData data = null;
 	int id;
 
-	Sector(SectorData data, int ID, ArrayList<Sector> neighbors) {
+	Sector(SectorData data, int ID, ArrayList<Integer> neighbors) {
 		this.data = data;
 		id = ID;
 		this.neighbors = neighbors;
 	}
-	
-	
 }
